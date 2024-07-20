@@ -1,0 +1,13 @@
+fn main() {
+    let s1 = String::from("rust is a nerd");
+    //let s2 = String::from(s1);
+    
+    take_ownership(s1);
+
+    println!("s1");
+}
+
+fn take_ownership(_string: String) {
+    println!("_string");
+
+}
